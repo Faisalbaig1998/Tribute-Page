@@ -140,6 +140,9 @@ footer{
         grid-template-columns: auto;
         height: auto;
     }
+    footer{
+        grid-template-columns: repeat(2, auto);
+    }
 }
 
 @media only screen and (min-width:1440px){
